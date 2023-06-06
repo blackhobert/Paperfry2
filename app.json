@@ -1,7 +1,7 @@
 {
     "name": "NEWSPAPER-BOT",
     "description": "the telegram Autofilter bot",
-    "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
+    "logo": "https://te.legra.ph/file/b3f47eedb51003b2315b8.png",
     "keywords": ["telegram", "auto-filter"],
     "stack": "container",
     "website": "https://github.com/MrMKN/PROFESSOR-BOT",
@@ -82,17 +82,18 @@
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False",
-            "value": "True",
+            "value": "false",
             "required": false     
         },
         "PM_IMDB": {
             "description": "pm Imdb, the view of information when making True/False",
-            "value": "True",
+            "value": "false",
             "required": false     
         },
         "IMDB_TEMPLATE": {
             "description": "Custom IMDB Template",
-            "value": "<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres</b>: {genres}\n<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>\n<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>\n<b>☀️ Languages</b> : <code>{languages}</code>\n<b>👨‍💼 Dɪʀᴇᴄᴛᴏʀ</b>: {director}\n<b>👨🏻‍🦱 Pʀᴏᴅᴜᴄᴇʀ</b>: {producer}\n<b>📑 wʀɪᴛᴇʀ</b>: {writer}\n<b>📀 RunTime</b>: {runtime} Minutes\n<b>📆 Release Info</b> : {release_date}\n<b>🎛 Countries</b> : <code>{countries}</code>\n<b>📓 Sᴛᴏʀy</b> : <code>{plot}</code>\n\n\n<b>🍀Requested by🍀</b> : {message.from_user.mention}",        
+            "value": "<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres</b>: {genres}\n<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>\n<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>\n<b>☀️ Languages</b> : <code>{languages}</code>\n<b>👨‍💼 Dɪʀᴇᴄᴛᴏʀ</b>: {director}\n<b>👨🏻‍🦱 Pʀᴏᴅᴜᴄᴇʀ</b>: {producer}\n<b>📑 wʀɪᴛᴇʀ</b>: {writer}\n<b>📀 RunTime</b>: {runtime} Minutes\n<b>📆 Release Info</b> : {release_date}\n<b>🎛 Countries</b> : <code>{countries}</code>\n<b>📓 Sᴛᴏʀy</b> : <code>{plot}</code>\n\n\n<b>🍀Requested by🍀</b> : {message.from_user.mentio<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres</b>: {genres}\n<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>\n<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>\n<b>☀️ Languages</b> : <code>{languages}</code>\n<b>👨‍💼 Dɪʀᴇᴄᴛᴏʀ</b>: {director}\n<b>👨🏻‍🦱 Pʀᴏᴅᴜᴄᴇʀ</b>: {producer}\n<b>📑 wʀɪᴛᴇʀ</b>: {writer}\n<b>📀 RunTime</b>: {runtime} Minutes\n<b>📆 Release Info</b> : {release_date}\n<b>🎛 Countries</b> : <code>{countries}</code>\n<b>📓 Sᴛᴏʀy</b> : <code>{plot}</code>\n\n\n<b>🍀Requested by🍀</b> : {message.from_user.mention}",        
+                    
             "required": false
         }, 
         "IMDB_DELET_TIME": {
