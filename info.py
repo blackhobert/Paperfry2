@@ -42,7 +42,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://paperfry:<paperfry>@cluster0.d21bij1.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Shubham6811:<Shubham6811>@cluster0.sdivwlp.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -53,7 +53,7 @@ BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "𝙃𝙚𝙮 {query}! 𝙏�
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 @the_pdf_hindu 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕')
 RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "https://te.legra.ph/file/d097220b118c525ed3ac0.jpg")
-WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hi {user}\nFor THE HINDU send ZA and for THE INDIAN EXPRESS send ZB")
+WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hi {user}\nFor THE HINDU send ZA\nFor THE INDIAN EXPRESS send ZB")
 PMFILTER = environ.get('PMFILTER', "True")
 G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "False")
